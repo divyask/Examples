@@ -1,0 +1,9 @@
+---
+applications:
+- name: jpmc-amqp
+  memory: 1G
+  host: ddd-jpmc-amqp
+  path: target/jpmc-amqp-0.0.1-SNAPSHOT.jar
+  services:
+   - myrabbitmq
+

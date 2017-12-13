@@ -1,0 +1,8 @@
+---
+applications:
+- name: stock
+  memory: 1G
+  host: stock123
+  path: target/stock-0.0.1-SNAPSHOT.jar
+  services:
+   - mysqllocal

@@ -1,0 +1,8 @@
+---
+applications:
+- name: consumer
+  memory: 1G
+  host: ddd-consumer
+  path: target/consumer-0.0.1-SNAPSHOT.jar
+  services:
+   - myrabbitmq
